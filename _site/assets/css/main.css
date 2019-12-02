@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body, html {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; }
+
+.header-image {
+  position: fixed;
+  min-height: 100vh;
+  right: auto;
+  width: 30%;
+  background-image: url("../img/glenn-bug.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  filter: grayscale(50%); }
+
+.header-content {
+  position: absolute;
+  bottom: 0;
+  padding: 60px 87px 52px; }
+
+.header-content > ul > li {
+  display: inline-block; }
+
+.social {
+  width: 35px;
+  min-height: 35px;
+  background-color: white;
+  border-radius: 100px;
+  margin: 10px;
+  line-height: 35px;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+  list-style-type: none;
+  text-align: center;
+  text-decoration: none; }
+
+.insta::before {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f16d "; }
+
+.git::before {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f09b"; }
+
+.beh::before {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f1b4"; }
+
+.page {
+  padding-left: 30%;
+  float: left;
+  clear: both;
+  width: 100%; }
