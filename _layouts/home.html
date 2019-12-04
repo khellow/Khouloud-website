@@ -4,8 +4,9 @@ layout: default
 <div class="page">
     
 {% for post in site.posts %}
-    {% if post.tags contains "Illustration" or "Production" or"LOGO-DESIGN" %}
+    {% if post.tags contains "Illustration" or "Production" or "LOGO" %}
     <h1>{{post.title}}</h2>
+    <img src="{{site.baseurl}}/assets/img/post.img">
 {% endif %}
   
     
