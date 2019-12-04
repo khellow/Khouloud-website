@@ -16,28 +16,22 @@ body{
     background-size: cover;
 }
 
-  header > h1 {
-  text-align: center;
-  text-size: 30px; 
-  text-shadow: 3px 2px red;
+  
+ 
+h1, p, img {
+margin-left:25px;
 }
 
-
+p {
+    display:block;
+    width:500px;
+}
 
 // h1, p, img {
-// margin-left:25px;
+//     display: block;
+//     width: 500px;
+//     margin: 0 10%;
 // }
-
-// p {
-//     display:block;
-//     width:500px;
-// }
-
-h1, p, img {
-    display: block;
-    width: 500px;
-    margin: 0 10%;
-}
 
 
 // header > .wrap {
@@ -73,6 +67,7 @@ h1, p, img {
     bottom: 0;
     padding: 60px 87px 52px;
     color: white;
+    shadow: 3px 2px red;
 }
 
 .header-content >ul >li {
