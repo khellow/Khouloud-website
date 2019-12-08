@@ -63,11 +63,12 @@ p {
 }
 
 .header-content {
-    position: absolute center;
+    position: absolute;
     bottom: 0;
     padding: 60px 87px 52px;
     color: white;
     shadow: 3px 2px red;
+    justify-content: center;
     
 }
 
