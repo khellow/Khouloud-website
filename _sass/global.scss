@@ -47,7 +47,7 @@ p {
 // }
 
 .header-image {
-    position: center fixed;
+    position: fixed;
     min-height:100vh;
     right: auto;
     width: 30%;
@@ -68,6 +68,7 @@ p {
     padding: 60px 87px 52px;
     color: white;
     shadow: 3px 2px red;
+    display:inline-block;
 }
 
 .header-content >ul >li {
