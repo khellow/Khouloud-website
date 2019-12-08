@@ -47,7 +47,7 @@ p {
 // }
 
 .header-image {
-    position: center fixed;
+    position: fixed;
     min-height:100vh;
     right: auto;
     width: 30%;
@@ -63,7 +63,7 @@ p {
 }
 
 .header-content {
-    position: absolute;
+    position: absolute center;
     bottom: 0;
     padding: 60px 87px 52px;
     color: white;
