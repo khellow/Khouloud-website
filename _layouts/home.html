@@ -4,15 +4,30 @@ layout: default
 <div class="container">
     
 {% for post in site.posts %}
+ <div class="portfolio-item">
+       <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="1300">
+           <p>{{post.desc}}</p>
+           <a href="#" class="cta">View Details</a>
+            </div>
+     
+                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1000">
+                    <img src="{{site.baseurl}}/assets/img/{{post.img}}" alt="">
+               
+               
+        </div>
+</div>
+    
+{% endfor %}
+  
+    <!--     
+
     {% if post.tags contains "Illustration" or "Production" or "LOGO" or "Photography" %}
     <h1>{{post.title}}</h2>
     <img src="{{site.baseurl}}/assets/img/{{post.img}}">
     <p>{{post.desc}}</p>
-{% endif %}
-  
+
+-->
     
-    
-{% endfor %}
     
 <div class="container">
   <section class="contact" id="contact">
