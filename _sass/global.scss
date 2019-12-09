@@ -39,7 +39,10 @@ a{
     text-decoration: none;
     color: #eee;
 }
-p{ font-family: 'Poppins', sans-serif;
+p{
+    position: relative;
+    margin:auto;
+    font-family: 'Poppins', sans-serif;
     font-size: 0.9rem;
     font-weight: 300;
     display:block;
@@ -89,6 +92,8 @@ p{ font-family: 'Poppins', sans-serif;
 
 
 .caption__media {
+    position: relative;
+    margin:auto;
 width: 100%;
 box-shadow: 10px 10px 5px #381f1f;
     
