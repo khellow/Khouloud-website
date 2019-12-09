@@ -19,9 +19,9 @@ description: >- # this means to ignore newlines until "baseurl:"
  Take a look at my creative website.
 baseurl: "/Khouloud-website" # the subpath of your site, e.g. /blog
 url: "https://khellow.github.io/Khouloud-website" # the base hostname & protocol for your site, e.g. http://example.com
-insta: roses.for.me
-git: khellow
-beh: roses.for.me
+# insta: roses.for.me
+# git: khellow
+# beh: roses.for.me
 
 permalink: /:categories/:title/
 
