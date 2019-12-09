@@ -280,7 +280,40 @@ width: 25%;
 //     text-decoration:none;  
 // }
 
+.contact{
+    background-color: #400000;
 
+}
+form{
+    width: 70%;
+    margin:  0 auto;
+}
+form-label{
+    font-size: 1.5rem;
+}
+input,
+select, 
+textarea{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 5px;
+    border: none;
+    outline-color: #f1b3c3;
+
+}
+input[type="Submit"]{
+    width: initial;
+    background-color: #f1b3c3;
+    color: #eee;
+    padding: 1rem 2rem;
+    border-radius: .8rem;
+    cursor: pointer;
+    transition: background-color 650ms;
+}
+input[type="Submit"]:hover{
+    color: #f1b3c3;
+    background-color: rgb(180, 61, 87);
+}
 
 // .insta::before {
 //     font-family:"FontAwesome"; 
