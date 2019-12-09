@@ -300,9 +300,37 @@ width: 200%;
 // }
 
 
-.page {
-    padding-left:30%;
-    float: left;
-    clear: both;
+.copyright{
     width: 100%;
+    text-align: center;
+    background-color: rgb(29, 5, 5);
+    padding:  2rem 0;
+    position: relative;
 }
+.up{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    background-color: #eee;
+    top: -2.5rem;
+    right: 5rem;
+    border-radius:100%;
+    display: flex;
+    animation: pulse 2s infinite;
+    cursor: pointer;
+}
+.up i{
+color:  rgb(29, 5, 5);
+font-size: 2rem;
+margin: auto;
+}
+.copyright p{
+    font-size: 1rem;
+}
+
+// .page {
+//     padding-left:30%;
+//     float: left;
+//     clear: both;
+//     width: 100%;
+// }
