@@ -84,7 +84,7 @@ width: 100%;
 box-shadow: 10px 10px 5px #381f1f;
     
 } 
-@-webkit-keyframes ease in {
+@keyframes ease in {
     to{
         animation-timing-function: ease-in;
     }
