@@ -455,7 +455,8 @@ header{
     position: fixed;
     top: -100vh;
     z-index: 50;
-    background: url(img/dark-red-texture.jpg)no-repeat center center fixed;
+//     background: url(img/dark-red-texture.jpg)no-repeat center center fixed;
+    background: url("../img/dark-red-texture.jpg")no-repeat center center fixed;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
