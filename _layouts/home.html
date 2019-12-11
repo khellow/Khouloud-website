@@ -2,28 +2,29 @@
 layout: default
 ---
 
-<section class="portfolio" id="portfolio">
+
 <div class="container">
-    
+    <section class="portfolio" id="portfolio">    
 {% for post in site.posts %}
- <div class="portfolio-item">
-       <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="1300">
+        <div class="portfolio-item">
+       <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="400">
            <p>{{post.desc}}</p>
            <a href="#" class="cta">View Details</a>
-            </div>
+       </div>
      
-                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1000">
+        <div class="portfolio-img" data-aos="fade-left" data-aos-delay="400">
                     <img src="{{site.baseurl}}/assets/img/{{post.img}}" alt="">
                
-               
+         </section>      
         </div>
+     
 </div>
     
 {% endfor %}
-    </section>
+    
 
     
-<div class="container">
+<!-- <div class="container"> -->
   <section class="contact" id="contact">
                 
                     <div class="section-heading" data-aos="fade-down" data-aos-delay="300">
@@ -41,5 +42,5 @@ layout: default
                     </form>
               
         </section>
- </div>
+<!--  </div> -->
 </div>
