@@ -250,7 +250,7 @@ li{
     transform: rotate(-450deg) translateX(-.8rem);
 }
 
-.landing-text{
+.landing-text, def{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -274,16 +274,7 @@ width: 25%;
     font-size: 1.5rem;
     font-weight: 300;
 }
-.def {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    text-align: center;
-    z-index: 1;
 
-}
 
 
 // .header-content >ul >li {
