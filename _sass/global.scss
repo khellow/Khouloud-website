@@ -26,6 +26,11 @@ a{
     text-decoration: none;
     color: #eee;
 }
+p{ font-family: 'Josefin Sans', sans-serif;
+    font-size: .8rem;
+    font-weight: 300;
+
+}
 img{
     width: 100%;
 }
@@ -121,7 +126,7 @@ header{
 }
 
 .top-nav{
-    width: 95%;
+    width: 90%;
     height: 100vh;
     position: fixed;
     top: -100vh;
