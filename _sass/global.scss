@@ -348,7 +348,7 @@ body{
     width: 100%;
     height: 100%;
 //     background: linear-gradient(#694646, black 70%);
-     background: url("../assets/img/Solid-gradient-background.jpg")no-repeat center fixed;
+     background: url("../img/Solid-gradient-background.jpg")no-repeat center fixed;
     background-size: cover;
 }
 section{
@@ -363,9 +363,9 @@ a{
 //     font-weight: 300;
 
 // }
-img{
-    width: 100%;
-}
+// img{
+//     width: 100%;
+// }
 /*End global*/
 
 /*Start reusable*/
@@ -463,7 +463,7 @@ header{
     position: fixed;
     top: -100vh;
     z-index: 50;
-    background: url("../assets/img/dark-red-texture.jpg")no-repeat center center fixed;
+    background: url("../img/dark-red-texture.jpg")no-repeat center center fixed;
 }
 .nav-list{
     list-style: none;
